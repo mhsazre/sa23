@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity15">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="89dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="14dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="18dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="136dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="630dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="359dp"
+        android:layout_height="88dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline73"
+        app:layout_constraintEnd_toStartOf="@+id/guideline75"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline74"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="372dp"
+        android:layout_height="493dp"
+        android:text="از دیگر مواردی که می‌توان اشاره نمود، گذر ناصرخسرو از بخش کوهستانی کاخک و روستای کلات و کوهپایه‌های سلسله جبال قهستان که دارای درختان پسته کوهی فراوان بوده‌است و در سفرنامهٔ خود به آن اشاره نموده‌است . در کتاب تاریخ حافظ ابرو، خراسان در سده‌های ۸ و ۹ قمری به دوازده ولایت تقسیم گردیده‌است که گناباد، مرکز ولایت قهستان بوده‌است. سه رویداد تاریخی قبل از اسلام یعنی حادثه جنگ دوازده‌رخ و فرار یزدگرد سوم به گناباد و ساخت قلعه زیبد و ایوان درب صوفه (ناتمام ماندن آن در اثر کشته شدن یزدگرد سوم در زیبد و در نتیجه به پایان رسیدن شاهنشاهی ساسانی) و حرکت بهرام‌شاه در گناباد روی داده و در دوره اسلامی جنگ‌های مهم تاریخی علیه اسماعیلیان بنام جنگ ملاحده در قلعه‌های اسماعیلی گناباد و قاین روی داده‌است."
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline77"
+        app:layout_constraintEnd_toStartOf="@+id/guideline75"
+        app:layout_constraintStart_toStartOf="@+id/guideline74"
+        app:layout_constraintTop_toTopOf="@+id/guideline76" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تاریخ گناباد"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline75"
+        app:layout_constraintStart_toStartOf="@+id/guideline74"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="671dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه بعد"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline79"
+        app:layout_constraintEnd_toStartOf="@+id/guideline75"
+        app:layout_constraintStart_toStartOf="@+id/guideline74"
+        app:layout_constraintTop_toTopOf="@+id/guideline77" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

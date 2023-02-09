@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity19">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="121dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="139dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="656dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="22dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="388dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="351dp"
+        android:layout_height="97dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline98"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="343dp"
+        android:layout_height="191dp"
+        android:text="پل کال شور مربوط به دوره صفوی است و در ۳۴ کیلومتری شمال گناباد، بر روی رودکال شور واقع شده و این اثر در تاریخ ۱۷ مرداد ۱۳۸۳ با شمارهٔ ثبت ۱۱۰۵۵ به‌عنوان یکی از آثار ملی ایران به ثبت رسیده‌است."
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline99"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="224dp"
+        android:background="@drawable/poll"
+        app:layout_constraintBottom_toTopOf="@+id/guideline99"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline102"
+        app:layout_constraintTop_toTopOf="@+id/guideline98"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="پل کال شور"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="صفحه بعد"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline101"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

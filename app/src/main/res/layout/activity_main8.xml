@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity8">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="84dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="261dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="599dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="651dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="357dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline30"
+        app:layout_constraintEnd_toStartOf="@+id/guideline35"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline34"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="355dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/ghorme"
+        app:layout_constraintBottom_toTopOf="@+id/guideline31"
+        app:layout_constraintEnd_toStartOf="@+id/guideline35"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline30"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="365dp"
+        android:layout_height="306dp"
+        android:textColor="@color/black"
+        android:text="قورمه یکی از قدیمی‌ترین غذاهای ایرانیست که گفته می‌شود اقوام آریایی برای اولین بار برای نگهداری طولانی مدت گوشت، آن را به روشی که در ادامه گفته می‌شود طبخ می‌کردند.
+
+تهیه قرمه به دو روش سنتی و جدید انجام می‌شود، برای مثال در قدیم پس از تکه تکه کردن گوشت‌ها آن‌ها را داخل کیسه‌ای از چربی گوسفند می‌ریختند. پس از خشک شدن گوشت چربی زیادی روی آن را می‌گرفت که از ورود هر گونه میکروب و ... جلوگیری می‌کرد. این گوشت گاهی داخل کوزه‌های سفالی و یا برای بهتر ماندن در سرداب خانه‌ها نگهداری می‌شد. امروزه نیز این روش در برخی روستاهای دورافتاده در شرق ایران مثل خراسان یا سیستان و بلوچستان هنوز به قوت خود باقیست."
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline32"
+        app:layout_constraintEnd_toStartOf="@+id/guideline35"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline34"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="قورمه"
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/guideline34"
+        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+
+    <Button
+
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه اصلی"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline33"
+        app:layout_constraintEnd_toStartOf="@+id/guideline35"
+        app:layout_constraintStart_toStartOf="@+id/guideline34"
+        app:layout_constraintTop_toTopOf="@+id/guideline32" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

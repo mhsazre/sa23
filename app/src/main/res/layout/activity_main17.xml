@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity16">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="79dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="313dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="604dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="662dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="7dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="394dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="361dp"
+        android:layout_height="84dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline80"
+        app:layout_constraintEnd_toStartOf="@+id/guideline85"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="@+id/guideline84"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="346dp"
+        android:layout_height="287dp"
+        android:text="در آبادی گیسور گناباد آتشکده‌ای وجود دارد که از دوران هخامنشیان بر جای مانده است. در اطراف این آتشکده چند قلعه باستانی به نام‌های قلعه دختر شورآباد، قبر پیران و پشن قرار دارد. این قلعه‌ها به دوران پیش از اسلام تعلق دارند."
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline82"
+        app:layout_constraintEnd_toStartOf="@+id/guideline85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline81" />
+
+    <ImageView
+        android:layout_width="379dp"
+        android:layout_height="194dp"
+        android:background="@drawable/atash"
+        app:layout_constraintBottom_toTopOf="@+id/guideline81"
+        app:layout_constraintEnd_toStartOf="@+id/guideline85"
+        app:layout_constraintStart_toStartOf="@+id/guideline84"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="آتشکده"
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline80"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="صفحه بعد"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline83"
+        app:layout_constraintEnd_toStartOf="@+id/guideline85"
+        app:layout_constraintStart_toStartOf="@+id/guideline84"
+        app:layout_constraintTop_toTopOf="@+id/guideline82" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

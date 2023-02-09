@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity9">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="92dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="3dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="291dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="594dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="637dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="405dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="365dp"
+        android:layout_height="90dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline36"
+        app:layout_constraintEnd_toStartOf="@+id/guideline41"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="383dp"
+        android:layout_height="296dp"
+        android:text="سفالگری در گناباد که حداقل پیشینه ای سه هزارساله دارد، با مراکز هم عصر خود از شیوه ای یکسان پیروی می کرد. سفال مند با مصالح و تزئینات متفاوت، به عنوان پدیده ای نوظهور از اواخر قرن یازدهم هجری در مند رایج شد. این سفال که با سفال میبد یزد و شهررضای اصفهان شباهت زیادی دارد، درطول زمان از محیط نیز تأثیر پذیرفته است. سفال مند به دلیل داشتن نقش مایه های سنتی و رنگ های گرم و شاد، همواره جذاب و در مجامع هنری مطرح است. مهم ترین ویژگی سفال مند عناصر تزئینی برگرفته از طبیعت است که در چهار گروه انسانی، حیوانی، گیاهی و هندسی جای می گیرند و نشان دهندة آیین ها و باورهای کهن ایرانی در خاستگاه آن نگاره ها هستند."
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline39"
+        app:layout_constraintEnd_toStartOf="@+id/guideline41"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toTopOf="@+id/guideline38"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <ImageView
+        android:layout_width="367dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/sofal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline38"
+        app:layout_constraintEnd_toStartOf="@+id/guideline41"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toTopOf="@+id/guideline36"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سفال مند "
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه اصلی"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline40"
+        app:layout_constraintEnd_toStartOf="@+id/guideline41"
+        app:layout_constraintStart_toStartOf="@+id/guideline37"
+        app:layout_constraintTop_toTopOf="@+id/guideline39" />
+</androidx.constraintlayout.widget.ConstraintLayout>

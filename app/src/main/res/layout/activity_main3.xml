@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity3">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2_os"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="94dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3_as"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4_es"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5_oe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="36dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="354dp"
+        android:layout_height="77dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2_os"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_es"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_as"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="362dp"
+        android:layout_height="392dp"
+        android:textColor="@color/black"
+        android:text="
+
+مسجد جامع گناباد از بناهای ارزشمند دوره خوارزمشاهیان و از شاهکارهای تاریخی استان خراسان رضوی است که بیش از هشت قرن قدمت دارد. از امتیازات مهم آن میتوان به وجود کتیبه‌ های کوفی و آجرکاری‌ های زیبا اشاره کرد که بر اطراف ایوان قبله آن نقش بسته اند و در انتهای حاشیه کتیبه خط کوفی، تاریخ ساخت این مسجد، سال ۶۰۹ هجری قمری برابر با ۱۲۱۲ میلادی مشخص شده است. بر اساس آثار و شواهد موجود ساختمان كنونی مسجدجامع گناباد دارای الحاقاتی است كه احتمالا در دوران ایلخانی ایجاد شده است.
+
+این اثر با شماره ۳۲۵ در فهرست آثار ملی کشور به ثبت رسیده است.
+"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5_oe"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_es"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_as"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مسجد جامع"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2_os"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_es"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="268dp" />
+
+    <ImageView
+        android:layout_width="359dp"
+        android:layout_height="176dp"
+        android:background="@drawable/jame"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_es"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_as"
+        app:layout_constraintTop_toTopOf="@+id/guideline2_os"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="صفحه بعد"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_es"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_as" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="695dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

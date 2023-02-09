@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity2">
+
+
+    <ImageView
+        android:layout_width="356dp"
+        android:layout_height="153dp"
+        android:background="@drawable/ganat"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_s"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_s"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="347dp"
+        android:layout_height="82dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_oss"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_s"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_s"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_oss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="86dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="386dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="389dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="قنات قصبه"
+        android:textColor="@color/white"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_s"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5_eo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="684dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="358dp"
+        android:layout_height="380dp"
+        android:text="قنات قصبه گناباد از حیرت انگیزترین پدیده هاي ساخته دست بشر و نمادي از هم نوايي بشر با طبيعت است . اين قنات به طول 33 کیلومتر ، از دو رشته اصلی به نام هاي قصبه و دولاب تشکیل شده است كه مجموعا 472 میله چاه دارد. حفر کانالی بدین عظمت با ژرفناي بیش از 300 و حجم افزون بر 73 میلیون متر مکعب برداشت خاک در عمق 300 متري با کم ترین خطا در مسیر یا شیب بندي از عصر هخامنشيان، مؤید نبوغ ایرانی و شاهکاری بی نظیر در سراسر جهان است. این قنات شگفت انگیز که تاریخ آن حداقل به 2250 سال پیش باز می گردد، یکی از پر آب ترین قناتهاي ایران است که با توجه به این ویژگی ها در پرونده قنات های یازده گانه ایران در  تاریخ 25 تیرماه 1395 (15 July 2016)  در چهلمین اجلاس کمیته میراث جهانی در شهر استانبول ترکیه به عنوان 20 امین اثر ایران در فهرست میراث جهانی یونسکو به ثبت رسید."
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/guideline5_eo"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_s"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_s"
+        app:layout_constraintTop_toTopOf="@+id/guideline6"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="223dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه بعد"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5_eo"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4_s"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/guideline3_s"
+        app:layout_constraintTop_toTopOf="@+id/guideline78"
+        app:layout_constraintVertical_bias="0.8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

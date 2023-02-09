@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity14">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="77dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="175dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="617dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="668dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="6dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="407dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="345dp"
+        android:layout_height="82dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline66"
+        app:layout_constraintEnd_toStartOf="@+id/guideline71"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="@+id/guideline70"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="298dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="تاریخ گناباد"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline66"
+        app:layout_constraintEnd_toStartOf="@+id/guideline71"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/guideline70"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="362dp"
+        android:layout_height="433dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="گُناباد با نام تاریخی کُناباد مرکز شهرستان گناباد واقع در جنوب استان خراسان رضوی است. این شهر از کهن‌ترین شهرهای ایران     است و قدمت بلدیه و شهرداری در آن به سال ۱۳۱۶ بر می‌گردد. گناباد را در منابع عربی و اسلامی جَنابد و کَنابد و ینابد نیز ثبت کرده‌اند. گُن به معنای دیو باشد و گناباد را از آن جهت گناباد گفته‌اند که حفر قنات قصبه کار انسان‌های عادی نبوده‌است. نابد جمع گنبدها بوده زیرا که در شهر گنابادِ قدیم، تمام منازل به صورت گنبدی ساخته می‌شده‌است. دوازده بار در شاهنامه‌ی فردوسی، در بعضی نسخه‌ها کنابد، در بعضی جنابد و گنابد یاد شده بطوریکه زیبد و گناباد را محل جنگ‌های توران و ایران دانسته‌اند به گفتهٔ شاهنامه، پیران ویسه وزیر کاردان افراسیاب در گناباد به خاک سپرده شده و مدفن او هم‌اکنون در گناباد قرار دارد."
+        app:layout_constraintBottom_toTopOf="@+id/guideline68"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline70"
+        app:layout_constraintTop_toTopOf="@+id/guideline67" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه بعد"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline69"
+        app:layout_constraintEnd_toStartOf="@+id/guideline71"
+        app:layout_constraintStart_toStartOf="@+id/guideline70"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

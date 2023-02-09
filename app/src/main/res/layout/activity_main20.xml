@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity20">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="8dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline105"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="392dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline106"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="92dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="294dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline108"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="606dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline109"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="666dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="355dp"
+        android:layout_height="91dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline106"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="336dp"
+        android:layout_height="222dp"
+        android:text="آسیاب کاخک مربوط به دوران‌های تاریخی پس از اسلام است و در کاخک، جنوب غربی شهر واقع شده و این اثر در تاریخ ۷ مهر ۱۳۸۱ با شمارهٔ ثبت ۶۴۳۲ به‌عنوان یکی از آثار ملی ایران به ثبت رسیده است."
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline108"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline107" />
+
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="183dp"
+        android:background="@drawable/asiab"
+        app:layout_constraintBottom_toTopOf="@+id/guideline107"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline106" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه بعد"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline109"
+        app:layout_constraintEnd_toStartOf="@+id/guideline105"
+        app:layout_constraintStart_toStartOf="@+id/guideline104"
+        app:layout_constraintTop_toTopOf="@+id/guideline108" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="آسیاب کاخک"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline106"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

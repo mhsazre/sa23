@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity18">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="110dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="351dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="601dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="658dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="7dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="394dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline92"
+        app:layout_constraintEnd_toStartOf="@+id/guideline97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="380dp"
+        android:layout_height="259dp"
+        android:text="کال شور یک رودخانه فصلی بوده اما بدلیل بالا بودن سطح آب های زیر زمینی در تمام ایام سال دارای آب می باشد آب این رود خانه بسیار شور است که از آن برای برداشت نمک نیز استفاده می شود پل اصلی این رودخانه در 35 کیلومتری شهرستان گناباد به سمت تربت حیدریه واقع شده است.
+
+«کال شور» یکی از رودهای حوضهٔ آبریز کویر مرکزی ایران است. این رود در استان خراسان رضوی قرار دارد که سرشاخه‌های آن از ارتفاعات کاخک و چهل‌تن سرچشمه گرفته و به کویر نمک بجستان می‌ریزد."
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline94"
+        app:layout_constraintEnd_toStartOf="@+id/guideline97"
+        app:layout_constraintStart_toStartOf="@+id/guideline96"
+        app:layout_constraintTop_toTopOf="@+id/guideline93" />
+
+    <ImageView
+        android:layout_width="378dp"
+        android:layout_height="221dp"
+        android:background="@drawable/kal"
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
+        app:layout_constraintEnd_toStartOf="@+id/guideline97"
+        app:layout_constraintStart_toStartOf="@+id/guideline96"
+        app:layout_constraintTop_toTopOf="@+id/guideline92" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="صفحه بعد"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline95"
+        app:layout_constraintEnd_toStartOf="@+id/guideline97"
+        app:layout_constraintStart_toStartOf="@+id/guideline96"
+        app:layout_constraintTop_toTopOf="@+id/guideline94" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="کال شور"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/guideline96"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

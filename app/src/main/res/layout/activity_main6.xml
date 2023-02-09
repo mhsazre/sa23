@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mzareeeee.exxamppleee.gonabad.MainActivity6">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="88dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="309dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="590dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="658dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="15dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="359dp"
+        android:layout_height="88dp"
+        android:background="@drawable/retangle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="آش جوشپره"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline17"
+        app:layout_constraintEnd_toEndOf="@+id/imageView5"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <ImageView
+        android:layout_width="368dp"
+        android:layout_height="204dp"
+        android:background="@drawable/joshpare"
+        app:layout_constraintBottom_toTopOf="@+id/guideline18"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline17" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="339dp"
+        android:layout_height="260dp"
+        android:textColor="@color/black"
+        android:text=" غذایی بسیار پرزحمت و قدیمی که شامل ترکیب پیاز و عدس و نخود پخته است که در برگه پهن کرده خمیر به صورت مستطيل و يا مثلث پیچیده می شود و همراه کشک، گردو، خشخاش، کنجد و نعناع داغ سرو می شود. در تاریخ بیهقی از رواج این غذا در دوران بسیار قدیم در خراسان گفته شده است
+این غذا به دلیل روش پخت آن که زمان بر است در قدیم به صورت خانوادگی و در مهمانی های فامیلی طبخ می شده و امروزه نیز از غذاهای پرطرفدار گیاهی محسوب می شود."
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toStartOf="@+id/guideline22"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline18" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="صفحه بعد"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline21"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+</androidx.constraintlayout.widget.ConstraintLayout>
